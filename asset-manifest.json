@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/greenapi-test-page/static/css/main.f855e6bc.css",
+    "main.js": "/greenapi-test-page/static/js/main.683ad953.js",
+    "static/js/453.640c1b22.chunk.js": "/greenapi-test-page/static/js/453.640c1b22.chunk.js",
+    "static/media/logo.svg": "/greenapi-test-page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/greenapi-test-page/index.html",
+    "main.f855e6bc.css.map": "/greenapi-test-page/static/css/main.f855e6bc.css.map",
+    "main.683ad953.js.map": "/greenapi-test-page/static/js/main.683ad953.js.map",
+    "453.640c1b22.chunk.js.map": "/greenapi-test-page/static/js/453.640c1b22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.683ad953.js"
+  ]
+}
