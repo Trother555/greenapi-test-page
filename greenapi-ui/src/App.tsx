@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { AppForm, Response } from './getSettings';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Stack  from '@mui/material/Stack';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [response, responseSetter] = useState('');
+    return (
+        <>
+            <Stack direction="row" spacing={2} alignItems="flex-start" justifyContent="center">
+                <AppForm responseSetter={responseSetter} />
+                <Response response={response}/>
+            </Stack>
+        </>
+    );
 }
 
 export default App;
